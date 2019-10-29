@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<!-- 进行了2个样式表的应用 -->
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.css" />
+<!-- 进行了2个样式表的应用 -->
+</head> 
+<body>
+    <!-- bst -->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                 <a href="#">Link</a>
+                            </li>
+                            <li>
+                                 <a href="#">Link</a>
+                            </li>
+                            <li class="dropdown">
+                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                         <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider">
+                                    </li>
+                                    <li>
+                                         <a href="#">Separated link</a>
+                                    </li>
+                                    <li class="divider">
+                                    </li>
+                                    <li>
+                                         <a href="#">One more separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" />
+                            </div> <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                 <a href="#">Link</a>
+                            </li>
+                            <li class="dropdown">
+                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                         <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                         <a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider">
+                                    </li>
+                                    <li>
+                                         <a href="#">Separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+                <div class="jumbotron">
+                    <h1>
+                        Hello, world!
+                        <script>
+                        document.write(new Date().toLocaleTimeString());
+                        </script>
+                    </h1>
+                    <p>
+                        This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+                    </p>
+                    <p>
+                         <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="carousel slide" id="carousel-27752">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-27752">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-27752">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-27752">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="" src="../img/default.jpg" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    First Thumbnail label
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="../img/default1.jpg" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    Second Thumbnail label
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="../img/default2.jpg" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    Third Thumbnail label
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div> <a class="left carousel-control" href="#carousel-27752" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-27752" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-6 column">
+                <form role="form" id="frmCalendar" name="frmCalendar">
+                    <input type="hidden" id="id" name="id" />
+                    <div class="form-group">
+                         <label for="title">标题</label>
+                         <input type="text" class="form-control" 
+                         id="title" name="title" />
+                    </div>
+                    <div class="form-group">
+                        <label for="content">内容</label>
+                        <input type="text" class="form-control" 
+                        id="content" name="content" />
+                   </div>
+                   <div class="form-group">
+                        <label for="importance">重要度</label>
+                        <input type="text" class="form-control" 
+                        id="importance" name="importance" />
+                    </div>   
+                    <div class="form-group">
+                        <label for="ifOK">是否完成</label>
+                        <input type="text" class="form-control" 
+                        id="ifOK" name="ifOK" />
+                    </div> 
+                    <div class="form-group">
+                        <label for="finishDate">完成时间</label>
+                        <input type="text" class="form-control" 
+                        id="finishDate" name="finishDate" />
+                    </div>                                                        
+                    <div class="form-group">
+                         <label for="exampleInputFile">File input</label><input type="file" id="exampleInputFile" />
+                        <p class="help-block">
+                            Example block-level help text here.
+                        </p>
+                    </div>
+                    <div class="checkbox">
+                         <label><input type="checkbox" />Check me out</label>
+                    </div> 
+                    <button type="submit" class="btn btn-default" id="btnCalendarInsert" name="btnCalendarInsert">网增</button>
+                    <button type="button" class="btn btn-default" id="btnCalendarUpdate" name="btnCalendarUpdate">网改</button>
+                </form>
+            </div>
+            <div class="col-md-6 column">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                标题
+                            </th>
+                            <th>
+                                内容
+                            </th>
+                            <th>
+                                是否完成
+                            </th>
+                            <th>
+                                完成时间
+                            </th>
+                            <th colspan="2" class="text-center">
+                                操作
+                            </th>                            
+                        </tr>
+                    </thead>
+                    <tbody id="tbody0">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>    
+    <!-- bst -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../js/bgIndex.js"></script>
+</body>
+</html>
